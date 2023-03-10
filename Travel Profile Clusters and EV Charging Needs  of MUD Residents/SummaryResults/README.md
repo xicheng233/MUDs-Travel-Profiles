@@ -1,1 +1,1 @@
-This folder uncovers corresponding files of resuls.
+This folder uncovers corresponding files of results.
