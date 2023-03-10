@@ -1,1 +1,1 @@
-This folder contains figures illustrating the analysis in the paper.
+This folder contains high-resolution figures in the paper.
