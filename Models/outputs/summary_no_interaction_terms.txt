@@ -1,0 +1,43 @@
+\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}    &    MUDsShares    & \textbf{  R-squared:         } &     0.827   \\
+\textbf{Model:}            &       OLS        & \textbf{  Adj. R-squared:    } &     0.814   \\
+\textbf{Method:}           &  Least Squares   & \textbf{  F-statistic:       } &     61.72   \\
+\textbf{Date:}             & Fri, 10 Feb 2023 & \textbf{  Prob (F-statistic):} &  4.48e-40   \\
+\textbf{Time:}             &     07:43:45     & \textbf{  Log-Likelihood:    } &    174.11   \\
+\textbf{No. Observations:} &         126      & \textbf{  AIC:               } &    -328.2   \\
+\textbf{Df Residuals:}     &         116      & \textbf{  BIC:               } &    -299.8   \\
+\textbf{Df Model:}         &           9      & \textbf{                     } &             \\
+\textbf{Covariance Type:}  &    nonrobust     & \textbf{                     } &             \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                          & \textbf{coef} & \textbf{std err} & \textbf{t} & \textbf{P$> |$t$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+\midrule
+\textbf{const}            &      -0.1984  &        0.128     &    -1.551  &         0.124        &       -0.452    &        0.055     \\
+\textbf{HHIncomes}        &   -2.409e-06  &      1.3e-07     &   -18.597  &         0.000        &    -2.67e-06    &    -2.15e-06     \\
+\textbf{NewEngland}       &      -0.0582  &        0.024     &    -2.433  &         0.016        &       -0.106    &       -0.011     \\
+\textbf{MiddleAtlantic}   &      -0.0341  &        0.024     &    -1.426  &         0.157        &       -0.082    &        0.013     \\
+\textbf{EastNorthCentral} &       0.0939  &        0.024     &     3.923  &         0.000        &        0.047    &        0.141     \\
+\textbf{WestNorthCentral} &       0.1256  &        0.024     &     5.249  &         0.000        &        0.078    &        0.173     \\
+\textbf{SouthAtlantic}    &       0.1228  &        0.024     &     5.131  &         0.000        &        0.075    &        0.170     \\
+\textbf{EastSouthCentral} &       0.1890  &        0.024     &     7.894  &         0.000        &        0.142    &        0.236     \\
+\textbf{WestSouthCentral} &       0.1400  &        0.024     &     5.847  &         0.000        &        0.093    &        0.187     \\
+\textbf{Mountain}         &       0.1244  &        0.024     &     5.196  &         0.000        &        0.077    &        0.172     \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lclc}
+\textbf{Omnibus:}       & 30.195 & \textbf{  Durbin-Watson:     } &    1.007  \\
+\textbf{Prob(Omnibus):} &  0.000 & \textbf{  Jarque-Bera (JB):  } &   44.526  \\
+\textbf{Skew:}          &  1.208 & \textbf{  Prob(JB):          } & 2.14e-10  \\
+\textbf{Kurtosis:}      &  4.625 & \textbf{  Cond. No.          } & 1.61e+06  \\
+\bottomrule
+\end{tabular}
+%\caption{OLS Regression Results}
+\end{center}
+
+Notes: \newline
+ [1] Standard Errors assume that the covariance matrix of the errors is correctly specified. \newline
+ [2] The condition number is large, 1.61e+06. This might indicate that there are \newline
+ strong multicollinearity or other numerical problems.
