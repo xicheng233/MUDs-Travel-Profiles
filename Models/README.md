@@ -1,4 +1,4 @@
-This folders render into linear regression model to classify MUD, clustering model to cluster the travel pattern, optimization model to determine charging station deployment.
+This folder render into linear regression model to classify MUD, clustering model to cluster the travel pattern, optimization model to determine charging station deployment.
 
 1. To match the NHTS household-level travel data with the MUDs share information, we fit a statistical model that predicts the share of MUDs as a function of variables included in both datasets.
 
